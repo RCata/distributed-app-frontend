@@ -20,9 +20,9 @@ export class LoginComponent implements OnInit {
     this.loginService.
     checkLogin(new User(this.username, this.password))
       .subscribe(
-        result => console.log(result),
+        result => console.log("Angular god"),
         error => {
-          console.log("error");
+          console.log("Angular pleb");
         }
       );
   }
